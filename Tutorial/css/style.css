@@ -1,0 +1,134 @@
+
+body{
+    background-color: rgb(185, 185, 185);
+    color: white;
+    font-size: 20px;
+}
+
+header{
+   height: 222px;
+   background: url(../img/pixelart.png);
+}
+
+
+#logo{
+    height: 128px;
+    width: 128px;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    text-align: right;
+    padding-right: 70px;
+    background-color: rgba(177, 92, 53, 0.5);
+}
+
+ul li{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+ul li a{
+    color: white;
+    font-weight: 600;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    color: rgb(84, 45, 107);
+    text-decoration: underline;
+}
+
+.text h2{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+    text-align:center ;
+}
+
+.text p{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    text-decoration: wavy;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.text{
+    background-color: rgba(240, 120, 140, 0.5);
+    height: 900px;
+    padding-top:70px;;
+    font-family: 'Rubik', sans-serif;
+    
+
+}
+
+iframe{
+    position: absolute;
+    left: 650px;
+    bottom: 20px;
+    border: 2px solid black;
+}
+
+.widget1{
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-left: 50px;
+    width: 220px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 330px;
+
+}
+
+.widget2{
+    background-color: blueviolet;
+    border: 2px solid black;
+    margin-right: 50px;
+    width: 220px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 330px;
+    left: 1580px;
+
+}
+
+.widget1 a {
+    text-align: center;
+    color: white;
+}
+
+.widget2 a {
+    text-align: center;
+    color: white;
+}
+
+#botegay{
+    position: relative;
+    top: 400px;
+    left: 340px;
+}
+
+#buble{
+    position: absolute;
+    top: 920px;
+    left: 700px;
+
+}
+
+footer{
+    background:url(../img/pixelart.png);
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
